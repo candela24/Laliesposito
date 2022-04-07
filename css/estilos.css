@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+body
+    {
+        background-image: url(..//img/lali.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+            
+      }
+
+
+h3{
+    color:white;
+    font-size: 70px;
+    padding:1px;  
+    font-family: nunito, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    padding-left:15px;
+   }
+ h4{
+     font-family: font-family: arbotek, sans-serif;
+     font-style: normal;
+     font-weight: 100;
+     font-size:40px;
+     color: white;
+     padding-bottom:5px;
+     margin-left:20%;
+     
+     
+
+ }  
+
+.parrafo{
+    background-color:#df272aa4 ;
+    margin: 30px;
+    width: 30%;
+   
+    
+}
+.oracion{
+    color: white;
+    font-family: arbotek, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px; 
+    position: relative;
+    left: 13%;
+    width: 30%;
+   
+    
+    
+}
+
+.texto{
+    font-family: arbotek, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+    width: 40%;
+    text-align:center;
+   
+}
+
+
+.formulario {
+    padding: 10px; 
+    margin: 10px 0; 
+    width: 25%; 
+    float: right;
+    position: absolute;
+    right:5%;
+    top:25%;
+
+}
+     
+
+      h1{padding: 2px;color: white; text-align: center; }
+      form {width:100%; margin: auto; border: 9px solid rgb(255, 254, 254); padding: 15px;box-sizing: border-box}
+      form label{width: 200%; height: 100%; display: inline-block;font-weight: bold;color: white; padding: 9px;}
+      form input{ padding: 3px;border: 2px solid #ccd827; width: 100%}
+      
+
+.logo img{
+   width: 8%;
+   position: absolute;
+   bottom: 0%;
+   padding: 2%;
+}
+
+.info{
+    background-color:#df272aa4 ;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    bottom: 5%;
+    left: 35%;
+}
+
+
+
+
+
+      
+
