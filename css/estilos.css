@@ -8,6 +8,7 @@ body
         background-image: url(..//img/lali.png);
         background-size: cover;
         background-repeat: no-repeat;
+        width: 100%;
             
       }
 
@@ -48,8 +49,9 @@ h3{
     font-weight: 100;
     font-size: 30px; 
     position: relative;
-    left: 13%;
+    left: 9%;
     width: 30%;
+    
    
     
     
@@ -63,6 +65,8 @@ h3{
     color: white;
     width: 40%;
     text-align:center;
+    position: relative;
+    right:3%;
    
 }
 
@@ -79,11 +83,26 @@ h3{
 }
      
 
-      h1{padding: 2px;color: white; text-align: center; }
-      form {width:100%; margin: auto; border: 9px solid rgb(255, 254, 254); padding: 15px;box-sizing: border-box}
-      form label{width: 200%; height: 100%; display: inline-block;font-weight: bold;color: white; padding: 9px;}
-      form input{ padding: 3px;border: 2px solid #ccd827; width: 100%}
-      
+      h1{padding: 2px;color: rgb(255, 255, 255); text-align: center; }
+      form {width:100%; margin: auto; border: 9px solid rgb(255, 255, 255); padding: 15px;box-sizing: border-box}
+      form label{width: 60%; height: 100%; display: inline-block;font-weight:bold;color: rgb(255, 255, 255); padding: 10px;font-family: arbotek, sans-serif;}
+      form input{ padding: 3px; border:2px inherit #77787584; width: 100%;}
+
+.boton{
+    background-color: #df272aa4;
+    border: none;
+    padding: 4%;
+    width: 50%;
+    color: white;
+    font-family:arbotek, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 27%;
+}
+.boton:hover{
+    background-color: #df272a67;
+    cursor: pointer;
+}
 
 .logo img{
    width: 8%;
@@ -98,8 +117,9 @@ h3{
     text-align: center;
     font-size: 30px;
     position: absolute;
-    bottom: 5%;
-    left: 35%;
+    top: 14%;
+    left: 65%;
+    padding: 1%;
 }
 
 
