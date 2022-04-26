@@ -84,9 +84,26 @@ h3{
      
 
       h1{padding: 2px;color: rgb(255, 255, 255); text-align: center; }
-      form {width:100%; margin: auto; border: 9px solid rgb(255, 255, 255); padding: 15px;box-sizing: border-box}
-      form label{width: 60%; height: 100%; display: inline-block;font-weight:bold;color: rgb(255, 255, 255); padding: 10px;font-family: arbotek, sans-serif;}
-      form input{ padding: 3px; border:2px inherit #77787584; width: 100%;}
+      form {
+           width:100%; 
+           margin: auto; 
+           border: 9px solid rgb(255, 255, 255); padding:10px;
+           box-sizing: border-box
+    }
+      form label{
+          width: 60%; 
+          height: 100%; 
+          display: inline-block;
+          font-weight:bold;
+          color: rgb(248, 248, 248); 
+          padding: 10px;
+          font-family: arbotek, sans-serif;
+        }
+      form input{ 
+        padding: 6px; 
+        border:2px inherit #77787584; 
+        width: 100%;
+    }
 
 .boton{
     background-color: #df272aa4;
@@ -97,7 +114,7 @@ h3{
     font-family:arbotek, sans-serif;
     font-size: 20px;
     position: relative;
-    left: 27%;
+    left: 25%;
 }
 .boton:hover{
     background-color: #df272a67;
